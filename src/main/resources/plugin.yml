@@ -1,0 +1,7 @@
+name: CommandBlockHelper
+version: '${project.version}'
+main: com.github.militalex.commandblockhelper.CommandBlockHelper
+api-version: 1.19
+authors: [ Militalex ]
+description: This plugin add lots of useful functionality to improve working with commandblocks.
+website: https://github.com/Militalex
