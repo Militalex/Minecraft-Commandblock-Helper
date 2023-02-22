@@ -21,7 +21,6 @@ public final class CommandBlockHelper extends JavaPlugin {
 
 	@Override
 	public void onDisable() {
-
 		this.getLogger().info("--------- Command Block Helper successfully disabled. ---------");
 	}
 }

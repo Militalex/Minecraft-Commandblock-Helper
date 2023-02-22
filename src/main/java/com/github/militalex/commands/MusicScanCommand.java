@@ -25,22 +25,26 @@ import java.util.logging.Level;
 
 public class MusicScanCommand {
 	public static void register(){
-		new CommandAPICommand("savemusic-help")
+		/*		new CommandAPICommand("savemusic-help")
 				.executes((sender, args) -> {
 					sender.sendMessage(ChatColor.AQUA + "Syntax: " + ChatColor.GOLD + "/savemusic " +
 							ChatColor.YELLOW + "<Position> <name>\n" +
 							ChatColor.AQUA + "Usage: " + ChatColor.GOLD + "This command saves your music to an playable datapack " +
 							"by following from the given position all redstone components. " +
 							"The name of your music datapack will be your given name. The function itself will called play.mcfunction");
-				}).register();
+				}).register();*/
 
+		// add savemusic command
 		new CommandAPICommand("savemusic")
+				// Aguments: <Location> <Name of dPack>
 				.withArguments(new LocationArgument("Position of Redstone", LocationType.BLOCK_POSITION))
 				.withArguments(new StringArgument("datapack name"))
+				// can only executed by players
 				.executesPlayer((player, args) -> {
 					try {
 						scanMusic(player, (Location) args[0], (String) args[1]);
 					} catch (Exception e){
+						// Print player error message.
 						player.sendMessage(ChatColor.RED + "[Error]: " + e.getMessage());
 						throw e;
 					}
@@ -48,14 +52,14 @@ public class MusicScanCommand {
 				.register();
 	}
 
-	public static void scanMusic(@NotNull Player player, @NotNull Location startLoc, @NotNull String name){
+	/**
+	 * This method saves music build as redstone contraption to datapack.
+	 */
+	private static void scanMusic(@NotNull Player player, @NotNull Location startLoc, @NotNull String name){
 		// Command have to point to redstone wire
 		if (startLoc.getBlock().getType() != Material.REDSTONE_WIRE){
 			player.sendMessage(ChatColor.RED + "Your given location does not point to redstone wire!");
 		}
-
-		// Where sound commands are buffered in
-		final StringBuilder builder = new StringBuilder();
 
 		// Queue setup for latitude search (Breitensuche)
 		queue = new ArrayDeque<>();
@@ -73,27 +77,33 @@ public class MusicScanCommand {
 			final boolean propagate = (boolean) data[3];
 
 			// Material depend behavior decision
-			boolean delFlag = false;
-			final Material material = curLoc.getBlock().getType();
-			if (material.isAir()) continue;
+			boolean delFlag = false;	// Defines if processed block should be replaced with air
+			final Material curMat = curLoc.getBlock().getType();
+			if (curMat.isAir()) continue;	// Skip air
 
-			//CommandBlockHelper.LOGGER.log(Level.INFO, material + " at " + curLoc );
+			//CommandBlockHelper.LOGGER.log(Level.INFO, curMat + " at " + curLoc );
 
-			if (material.isBlock() && material.isOccluding() && propagate) {
+			// general block redstone behavior
+			if (curMat.isBlock() && curMat.isOccluding() && propagate) {
 				processNaturalBlock(curLoc, score, sLength);
 				delFlag = true;
 			}
 
-			if (material == Material.REDSTONE_WIRE) {
+			// Redstone behaviour
+			if (curMat == Material.REDSTONE_WIRE) {
 				processRedstoneWire(curLoc, score, sLength);
 				delFlag = true;
 			}
-			else if (material == Material.REPEATER) {
+			// Redstone repeater behaviour
+			else if (curMat == Material.REPEATER) {
 				processRepeater(curLoc, score, sLength);
 				delFlag = true;
 			}
-			else if (material == Material.COMPARATOR) CommandBlockHelper.LOGGER.log(Level.WARNING, "Comparator are not allowed!");
-			else if (material == Material.COMMAND_BLOCK || material == Material.REPEATING_COMMAND_BLOCK || material == Material.CHAIN_COMMAND_BLOCK){
+			// Redstone comparator behaviour is not supported
+			else if (curMat == Material.COMPARATOR) CommandBlockHelper.LOGGER.log(Level.WARNING, "Comparator are not allowed!");
+			// Command block behaviour
+			else if (curMat == Material.COMMAND_BLOCK || curMat == Material.REPEATING_COMMAND_BLOCK || curMat == Material.CHAIN_COMMAND_BLOCK){
+				// Extract CmdBlock and Command
 				final CommandBlock commandBlock = (CommandBlock) curLoc.getBlock().getState();
 				String command = commandBlock.getCommand();
 				if (command.startsWith("/")) command = command.substring(1);
@@ -108,29 +118,30 @@ public class MusicScanCommand {
 
 				// finally playsound command handler
 				else if (command.contains("playsound")) processPlaysoundCommand(name, score,
-						sLength, command, material == Material.REPEATING_COMMAND_BLOCK);
+						sLength, command, curMat == Material.REPEATING_COMMAND_BLOCK);
 
 				delFlag = true;
 			}
 
-			// Delete block
+			// Delete block if flag is set
 			if (delFlag){
 				curLoc.getBlock().setType(Material.AIR, false);
 			}
 		}
+
+		// Saves rest in BufferList into datapack functions
 		flushAll(name);
 
-
-
+		// Clear data
 		datapack = null;
 		BUFFER_LIST.clear();
 
+		// Scan finished msg
 		player.sendMessage(ChatColor.AQUA + "[/savemusic] " + ChatColor.GOLD + "Scan finished!");
 
+		// Reloading datapacks with fancy messages
 		player.sendMessage(ChatColor.DARK_AQUA + "[/reload] " + ChatColor.GOLD + "Now reloading Datapacks ...");
-
 		DatapackManager.getInstance().reload();
-
 		player.sendMessage(ChatColor.DARK_AQUA + "[/reload] " + ChatColor.GOLD + "Reloading of Datapacks finished. " +
 				"Your Datapack is " + ChatColor.YELLOW + name + " is now available.");
 	}
