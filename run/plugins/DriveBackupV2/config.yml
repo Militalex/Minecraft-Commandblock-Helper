@@ -1,0 +1,78 @@
+#################################################
+# DriveBackupV2   -   by Max Maeder (MaxTheGinus)
+#################################################
+
+# DOCUMENTATION HAS MOVED
+# Now available online at: https://github.com/MaxMaeder/DriveBackupV2/wiki
+
+version: 2
+
+delay: -1
+backup-thread-priority: 1
+keep-count: 5
+local-keep-count: 5
+zip-compression: 1
+backups-require-players: true
+disable-saving-during-backups: true
+
+scheduled-backups: true
+backup-schedule-list:
+- days: 
+  - "everyday"
+  time: "05:00"
+
+backup-list:
+- path: .
+  format: "%FORMAT.zip"
+  create: true
+  blacklist:
+  - versions/**
+  - debug/**
+  - libraries/**
+  - backups/**
+  - cache/**
+  - crash-reports/**
+  - logs/**
+
+external-backup-list:
+
+local-save-directory: "backups"
+remote-save-directory: "backups"
+
+googledrive:
+  enabled: false
+  shared-drive-id: ""
+onedrive:
+  enabled: false
+dropbox:
+  enabled: false
+webdav:
+  enabled: false
+  hostname: "http://example.com/directory"
+  username: "Username"
+  password: "Password"
+ftp:
+  enabled: false
+  hostname: "ftp.example.com"
+  port: 21
+  sftp: false
+  ftps: false
+  username: "Username"
+  password: "Password"
+  sftp-public-key: 
+  sftp-passphrase: 
+  working-dir:
+
+messages:
+  send-in-chat: true
+  prefix: "&6[&4DriveBackupV2&6] "
+  default-color: "&3"
+
+advanced:
+  metrics: true
+  update-check: true
+  suppress-errors: false
+  debug: false
+  date-language: "en"
+  date-timezone: "+01:00"
+  ftp-file-separator: "/"

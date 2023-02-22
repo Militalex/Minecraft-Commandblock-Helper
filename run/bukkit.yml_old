@@ -1,0 +1,9 @@
+settings:
+		update-folder: update
+		database:
+		username: ni4251368_2_DB
+		isolation: SERIALIZABLE
+		driver: com.mysql.jdbc.Driver
+		password: P3Phn27p
+		url: jdbc:mysql://localhost:3306/ni4251368_2_DB
+		

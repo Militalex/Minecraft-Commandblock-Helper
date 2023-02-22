@@ -1,0 +1,316 @@
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option PermSize=256m; support was removed in 8.0
+*** Error, this build is outdated ***
+*** Please download a new build as per instructions from https://www.spigotmc.org/go/outdated-spigot ***
+*** Server will start in 20 seconds ***
+Loading libraries, please wait...
+[05:01:45] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[05:01:47] [main/INFO]: Reloading ResourceManager: Default, bukkit, armor statues v2.8.1.zip, mural.zip, tdv_util.zip
+[05:01:49] [Worker-Main-14/INFO]: Loaded 7 recipes
+[2K[05:01:45] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[2K[05:01:47] [main/INFO]: Reloading ResourceManager: Default, bukkit, armor statues v2.8.1.zip, mural.zip, tdv_util.zip
+[2K[05:01:49] [Worker-Main-14/INFO]: Loaded 7 recipes
+>[2K[05:01:52] [Server thread/INFO]: Starting minecraft server version 1.16.5
+>[2K[05:01:52] [Server thread/INFO]: Loading properties
+>[2K[05:01:52] [Server thread/INFO]: This server is running CraftBukkit version 2991-Spigot-018b9a0-f3f3094 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+>[2K[05:01:54] [Server thread/INFO]: Debug logging is disabled
+>[2K[05:01:54] [Server thread/INFO]: Server Ping Player Sample Count: 12
+>[2K[05:01:54] [Server thread/INFO]: Using 4 threads for Netty based IO
+>[2K[05:01:54] [Server thread/INFO]: Default game type: CREATIVE
+>[2K[05:01:54] [Server thread/INFO]: Generating keypair
+>[2K[05:01:55] [Server thread/INFO]: Starting Minecraft server on 185.249.198.115:2150
+>[2K[05:01:55] [Server thread/INFO]: Using default channel type
+>[2K[05:01:57] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.3+5680-135941e
+>[2K[05:01:57] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@195a4a33]
+>[2K[05:01:57] [Server thread/INFO]: [BKCommonLib] Loading BKCommonLib v1.16.5-v2
+>[2K[05:02:00] [Server thread/INFO]: -------- World Settings For [DUMMY] --------
+>[2K[05:02:00] [Server thread/INFO]: Mob Spawn Range: 8
+>[2K[05:02:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+>[2K[05:02:00] [Server thread/INFO]: Max TNT Explosions: 100
+>[2K[05:02:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+>[2K[05:02:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+>[2K[05:02:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+>[2K[05:02:00] [Server thread/INFO]: Experience Merge Radius: 3.0
+>[2K[05:02:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
+>[2K[05:02:00] [Server thread/INFO]: Cane Growth Modifier: 100%
+>[2K[05:02:00] [Server thread/INFO]: Melon Growth Modifier: 100%
+>[2K[05:02:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+>[2K[05:02:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+>[2K[05:02:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
+>[2K[05:02:00] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+>[2K[05:02:00] [Server thread/INFO]: Carrot Growth Modifier: 100%
+>[2K[05:02:00] [Server thread/INFO]: Potato Growth Modifier: 100%
+>[2K[05:02:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
+>[2K[05:02:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+>[2K[05:02:00] [Server thread/INFO]: Vine Growth Modifier: 100%
+>[2K[05:02:00] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+>[2K[05:02:00] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+>[2K[05:02:00] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+>[2K[05:02:00] [Server thread/INFO]: Kelp Growth Modifier: 100%
+>[2K[05:02:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+>[2K[05:02:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+>[2K[05:02:00] [Server thread/INFO]: Item Merge Radius: 2.5
+>[2K[05:02:00] [Server thread/INFO]: Item Despawn Rate: 6000
+>[2K[05:02:00] [Server thread/INFO]: View Distance: 6
+>[2K[05:02:00] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+>[2K[05:02:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+>[2K[05:02:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+>[2K[05:02:01] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+>[2K[05:02:08] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.2.2-b812
+>[2K[05:02:08] [Server thread/INFO]: [LightCleaner] Loading LightCleaner v1.16.5-v1
+>[2K[05:02:08] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.3+5680-135941e
+>[2K[05:02:08] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+>[2K[05:02:08] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_16_R3 as the Bukkit adapter
+>[2K[05:02:09] [Server thread/INFO]: [WorldEdit] ====================================================
+>[2K[05:02:09] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+>[2K[05:02:09] [Server thread/INFO]: [WorldEdit]  as your server software. 
+>[2K[05:02:09] [Server thread/INFO]: [WorldEdit]   
+>[2K[05:02:09] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
+>[2K[05:02:09] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
+>[2K[05:02:09] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
+>[2K[05:02:09] [Server thread/INFO]: [WorldEdit]   
+>[2K[05:02:09] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
+>[2K[05:02:09] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
+>[2K[05:02:09] [Server thread/INFO]: [WorldEdit]   
+>[2K[05:02:09] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
+>[2K[05:02:09] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
+>[2K[05:02:09] [Server thread/INFO]: [WorldEdit]   
+>[2K[05:02:09] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+>[2K[05:02:09] [Server thread/INFO]: [WorldEdit] ====================================================
+>[2K[05:02:09] [Server thread/INFO]: [BKCommonLib] Enabling BKCommonLib v1.16.5-v2
+>[2K[05:02:09] [Server thread/INFO]: [BKCommonLib] BKCommonLib is running on Spigot (2991-Spigot-018b9a0-f3f3094) : v1_16_R3 (Minecraft 1.16.5)
+>[2K[05:02:09] [Server thread/INFO]: [BKCommonLib] [Network] Now using a PlayerConnection hook to provide Packet Listener and Monitor support
+>[2K[05:02:12] [Server thread/INFO]: [BKCommonLib] Every feature break in Bukkit makes my feature list longer.
+>[2K[05:02:12] [Server thread/INFO]: [BKCommonLib] BKCommonLib version 1.16.5-v2 (build: 1000) enabled! (2.423s)
+>[2K[05:02:12] [Server thread/INFO]: Preparing level "tdv"
+>[2K[05:02:12] [Server thread/INFO]: -------- World Settings For [tdv] --------
+>[2K[05:02:12] [Server thread/INFO]: Mob Spawn Range: 8
+>[2K[05:02:12] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+>[2K[05:02:12] [Server thread/INFO]: Max TNT Explosions: 100
+>[2K[05:02:12] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+>[2K[05:02:12] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+>[2K[05:02:12] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+>[2K[05:02:12] [Server thread/INFO]: Experience Merge Radius: 3.0
+>[2K[05:02:12] [Server thread/INFO]: Cactus Growth Modifier: 100%
+>[2K[05:02:12] [Server thread/INFO]: Cane Growth Modifier: 100%
+>[2K[05:02:12] [Server thread/INFO]: Melon Growth Modifier: 100%
+>[2K[05:02:12] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+>[2K[05:02:12] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+>[2K[05:02:12] [Server thread/INFO]: Sapling Growth Modifier: 100%
+>[2K[05:02:12] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+>[2K[05:02:12] [Server thread/INFO]: Carrot Growth Modifier: 100%
+>[2K[05:02:12] [Server thread/INFO]: Potato Growth Modifier: 100%
+>[2K[05:02:12] [Server thread/INFO]: Wheat Growth Modifier: 100%
+>[2K[05:02:12] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+>[2K[05:02:12] [Server thread/INFO]: Vine Growth Modifier: 100%
+>[2K[05:02:12] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+>[2K[05:02:12] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+>[2K[05:02:12] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+>[2K[05:02:12] [Server thread/INFO]: Kelp Growth Modifier: 100%
+>[2K[05:02:12] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+>[2K[05:02:12] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+>[2K[05:02:12] [Server thread/INFO]: Item Merge Radius: 2.5
+>[2K[05:02:12] [Server thread/INFO]: Item Despawn Rate: 6000
+>[2K[05:02:12] [Server thread/INFO]: View Distance: 6
+>[2K[05:02:12] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+>[2K[05:02:12] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+>[2K[05:02:12] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+>[2K[05:02:13] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+>[2K[05:02:14] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+>[2K[05:02:15] [Server thread/INFO]: Preparing spawn area: 0%
+>[2K[05:02:15] [Server thread/INFO]: Preparing spawn area: 0%
+>[2K[05:02:15] [Server thread/INFO]: Preparing spawn area: 0%
+>[2K[05:02:15] [Server thread/INFO]: Preparing spawn area: 0%
+>[2K[05:02:16] [Server thread/INFO]: Time elapsed: 1972 ms
+>[2K[05:02:16] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.2.2-b812
+>[2K[05:02:16] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.2.2-b812" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+>[2K[05:02:16] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+>[2K[05:02:16] [Server thread/INFO]: -------- World Settings For [tdv_nether] --------
+>[2K[05:02:16] [Server thread/INFO]: Mob Spawn Range: 8
+>[2K[05:02:16] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+>[2K[05:02:16] [Server thread/INFO]: Max TNT Explosions: 100
+>[2K[05:02:16] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+>[2K[05:02:16] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+>[2K[05:02:16] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+>[2K[05:02:16] [Server thread/INFO]: Experience Merge Radius: 3.0
+>[2K[05:02:16] [Server thread/INFO]: Cactus Growth Modifier: 100%
+>[2K[05:02:16] [Server thread/INFO]: Cane Growth Modifier: 100%
+>[2K[05:02:16] [Server thread/INFO]: Melon Growth Modifier: 100%
+>[2K[05:02:16] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+>[2K[05:02:16] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+>[2K[05:02:16] [Server thread/INFO]: Sapling Growth Modifier: 100%
+>[2K[05:02:16] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+>[2K[05:02:16] [Server thread/INFO]: Carrot Growth Modifier: 100%
+>[2K[05:02:16] [Server thread/INFO]: Potato Growth Modifier: 100%
+>[2K[05:02:16] [Server thread/INFO]: Wheat Growth Modifier: 100%
+>[2K[05:02:16] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+>[2K[05:02:16] [Server thread/INFO]: Vine Growth Modifier: 100%
+>[2K[05:02:16] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+>[2K[05:02:16] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+>[2K[05:02:16] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+>[2K[05:02:16] [Server thread/INFO]: Kelp Growth Modifier: 100%
+>[2K[05:02:16] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+>[2K[05:02:16] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+>[2K[05:02:16] [Server thread/INFO]: Item Merge Radius: 2.5
+>[2K[05:02:16] [Server thread/INFO]: Item Despawn Rate: 6000
+>[2K[05:02:16] [Server thread/INFO]: View Distance: 6
+>[2K[05:02:16] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+>[2K[05:02:16] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+>[2K[05:02:16] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+>[2K[05:02:16] [Server thread/INFO]: Preparing start region for dimension minecraft:tdv_nether
+>[2K[05:02:17] [Server thread/INFO]: Preparing spawn area: 0%
+>[2K[05:02:17] [Server thread/INFO]: Preparing spawn area: 0%
+>[2K[05:02:17] [Worker-Main-8/INFO]: Preparing spawn area: 86%
+>[2K[05:02:18] [Worker-Main-16/INFO]: Preparing spawn area: 86%
+>[2K[05:02:18] [Worker-Main-15/INFO]: Preparing spawn area: 86%
+>[2K[05:02:19] [Worker-Main-9/INFO]: Preparing spawn area: 88%
+>[2K[05:02:19] [Worker-Main-8/INFO]: Preparing spawn area: 95%
+>[2K[05:02:20] [Server thread/INFO]: Time elapsed: 3404 ms
+>[2K[05:02:20] [Server thread/INFO]: -------- World Settings For [tdv_the_end] --------
+>[2K[05:02:20] [Server thread/INFO]: Mob Spawn Range: 8
+>[2K[05:02:20] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+>[2K[05:02:20] [Server thread/INFO]: Max TNT Explosions: 100
+>[2K[05:02:20] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+>[2K[05:02:20] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+>[2K[05:02:20] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+>[2K[05:02:20] [Server thread/INFO]: Experience Merge Radius: 3.0
+>[2K[05:02:20] [Server thread/INFO]: Cactus Growth Modifier: 100%
+>[2K[05:02:20] [Server thread/INFO]: Cane Growth Modifier: 100%
+>[2K[05:02:20] [Server thread/INFO]: Melon Growth Modifier: 100%
+>[2K[05:02:20] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+>[2K[05:02:20] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+>[2K[05:02:20] [Server thread/INFO]: Sapling Growth Modifier: 100%
+>[2K[05:02:20] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+>[2K[05:02:20] [Server thread/INFO]: Carrot Growth Modifier: 100%
+>[2K[05:02:20] [Server thread/INFO]: Potato Growth Modifier: 100%
+>[2K[05:02:20] [Server thread/INFO]: Wheat Growth Modifier: 100%
+>[2K[05:02:20] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+>[2K[05:02:20] [Server thread/INFO]: Vine Growth Modifier: 100%
+>[2K[05:02:20] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+>[2K[05:02:20] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+>[2K[05:02:20] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+>[2K[05:02:20] [Server thread/INFO]: Kelp Growth Modifier: 100%
+>[2K[05:02:20] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+>[2K[05:02:20] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+>[2K[05:02:20] [Server thread/INFO]: Item Merge Radius: 2.5
+>[2K[05:02:20] [Server thread/INFO]: Item Despawn Rate: 6000
+>[2K[05:02:20] [Server thread/INFO]: View Distance: 6
+>[2K[05:02:20] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+>[2K[05:02:20] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+>[2K[05:02:20] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+>[2K[05:02:20] [Server thread/INFO]: Preparing start region for dimension minecraft:tdv_the_end
+>[2K[05:02:21] [Server thread/INFO]: Preparing spawn area: 0%
+>[2K[05:02:21] [Server thread/INFO]: Preparing spawn area: 83%
+>[2K[05:02:21] [Server thread/INFO]: Time elapsed: 993 ms
+>[2K[05:02:21] [Server thread/INFO]: -------- World Settings For [tdv_musik] --------
+>[2K[05:02:21] [Server thread/INFO]: Mob Spawn Range: 8
+>[2K[05:02:21] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+>[2K[05:02:21] [Server thread/INFO]: Max TNT Explosions: 100
+>[2K[05:02:21] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+>[2K[05:02:21] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+>[2K[05:02:21] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+>[2K[05:02:21] [Server thread/INFO]: Experience Merge Radius: 3.0
+>[2K[05:02:21] [Server thread/INFO]: Cactus Growth Modifier: 100%
+>[2K[05:02:21] [Server thread/INFO]: Cane Growth Modifier: 100%
+>[2K[05:02:21] [Server thread/INFO]: Melon Growth Modifier: 100%
+>[2K[05:02:21] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+>[2K[05:02:21] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+>[2K[05:02:21] [Server thread/INFO]: Sapling Growth Modifier: 100%
+>[2K[05:02:21] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+>[2K[05:02:21] [Server thread/INFO]: Carrot Growth Modifier: 100%
+>[2K[05:02:22] [Server thread/INFO]: Potato Growth Modifier: 100%
+>[2K[05:02:22] [Server thread/INFO]: Wheat Growth Modifier: 100%
+>[2K[05:02:22] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+>[2K[05:02:22] [Server thread/INFO]: Vine Growth Modifier: 100%
+>[2K[05:02:22] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+>[2K[05:02:22] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+>[2K[05:02:22] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+>[2K[05:02:22] [Server thread/INFO]: Kelp Growth Modifier: 100%
+>[2K[05:02:22] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+>[2K[05:02:22] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+>[2K[05:02:22] [Server thread/INFO]: Item Merge Radius: 2.5
+>[2K[05:02:22] [Server thread/INFO]: Item Despawn Rate: 6000
+>[2K[05:02:22] [Server thread/INFO]: View Distance: 6
+>[2K[05:02:22] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+>[2K[05:02:22] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+>[2K[05:02:22] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+>[2K[05:02:22] [Server thread/INFO]: Preparing start region for dimension minecraft:tdv_musik
+>[2K[05:02:22] [Server thread/INFO]: Preparing spawn area: 0%
+>[2K[05:02:22] [Server thread/INFO]: Preparing spawn area: 0%
+>[2K[05:02:23] [Server thread/INFO]: Time elapsed: 998 ms
+>[2K[05:02:23] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+>[2K[05:02:23] [Server thread/INFO]: [Multiverse-Core] Version 4.2.2-b812 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+>[2K[05:02:23] [Server thread/INFO]: [LightCleaner] Enabling LightCleaner v1.16.5-v1
+>[2K[05:02:23] [Server thread/INFO]: [LightCleaner] Saving plugins/LightCleaner/config.yml...
+>[2K[05:02:24] [Server thread/INFO]: [LightCleaner] Saving plugins/LightCleaner/Localization.yml...
+>[2K[05:02:24] [Server thread/INFO]: [LightCleaner] LightCleaner version 1.16.5-v1 (build: 108) enabled! (0.261s)
+>[2K[05:02:24] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+>[2K[05:02:24] [Server thread/INFO]: Done (11.852s)! For help, type "help"
+>[2K[05:02:24] [Server thread/INFO]: Starting GS4 status listener
+>[2K[05:02:24] [Server thread/INFO]: Thread Query Listener started
+>[2K[05:02:24] [Query Listener #1/INFO]: Query running on 185.249.198.115:2151
+>[2K[05:02:24] [Server thread/INFO]: Starting remote control listener
+>[2K[05:02:24] [Server thread/WARN]: No rcon password set in server.properties, rcon disabled!
+>[2K[09:17:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5786ms or 115 ticks behind
+>[2K[10:57:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6581ms or 131 ticks behind
+>[2K[12:07:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9811ms or 196 ticks behind
+>[2K[12:22:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13550ms or 271 ticks behind
+>[2K[12:53:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6034ms or 120 ticks behind
+>[2K[13:58:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5087ms or 101 ticks behind
+>[2K[14:48:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7669ms or 153 ticks behind
+>[2K[15:38:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5502ms or 110 ticks behind
+>[2K[16:53:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6694ms or 133 ticks behind
+>[2K[17:28:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5040ms or 100 ticks behind
+>[2K[17:33:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6733ms or 134 ticks behind
+>[2K[17:42:45] [User Authenticator #1/INFO]: UUID of player Linphator is 8136c8af-7a61-409a-a844-6297a7933844
+>[2K[17:42:45] [Server thread/INFO]: Linphator[/90.146.208.144:62116] logged in with entity id 301 at ([tdv]471.45385718233484, 67.0, 121.72286938900268)
+>[2K[17:44:29] [Server thread/INFO]: Linphator issued server command: /stopsound @a
+>[2K[17:44:29] [Server thread/INFO]: [Linphator: Stopped all sounds]
+>[2K[17:44:31] [Server thread/INFO]: Linphator issued server command: /gamemode spectator
+>[2K[17:44:31] [Server thread/INFO]: [Linphator: Set own game mode to Spectator Mode]
+>[2K[17:44:33] [Server thread/INFO]: Linphator issued server command: /gamemode creative
+>[2K[17:44:33] [Server thread/INFO]: [Linphator: Set own game mode to Creative Mode]
+>[2K[17:44:38] [Server thread/INFO]: Linphator issued server command: /gamemode spectator
+>[2K[17:44:38] [Server thread/INFO]: [Linphator: Set own game mode to Spectator Mode]
+>[2K[17:44:40] [Server thread/INFO]: Linphator issued server command: /gamemode creative
+>[2K[17:44:40] [Server thread/INFO]: [Linphator: Set own game mode to Creative Mode]
+>[2K[17:44:58] [Server thread/INFO]: Linphator issued server command: /gamemode spectator
+>[2K[17:44:58] [Server thread/INFO]: [Linphator: Set own game mode to Spectator Mode]
+>[2K[17:45:07] [Server thread/INFO]: Linphator issued server command: /gamemode creative
+>[2K[17:45:07] [Server thread/INFO]: [Linphator: Set own game mode to Creative Mode]
+>[2K[17:45:14] [Server thread/INFO]: Linphator issued server command: /tag Linphator remove m
+>[2K[17:45:17] [Server thread/INFO]: Linphator issued server command: /tag Linphator remove map_visit
+>[2K[17:45:17] [Server thread/INFO]: [Linphator: Removed tag 'map_visit' from Linphator]
+>[2K[17:46:54] [Server thread/INFO]: Linphator issued server command: /gamemode spectator
+>[2K[17:46:54] [Server thread/INFO]: [Linphator: Set own game mode to Spectator Mode]
+>[2K[17:46:57] [Server thread/INFO]: Linphator issued server command: /gamemode creative
+>[2K[17:46:57] [Server thread/INFO]: [Linphator: Set own game mode to Creative Mode]
+>[2K[17:47:05] [Server thread/INFO]: Linphator issued server command: /gamemode spectator
+>[2K[17:47:05] [Server thread/INFO]: [Linphator: Set own game mode to Spectator Mode]
+>[2K[17:47:13] [Server thread/INFO]: Linphator issued server command: /mvtp tdv_musik
+>[2K[17:47:19] [Server thread/INFO]: Linphator issued server command: /gamemode spectator
+>[2K[17:47:19] [Server thread/INFO]: [Linphator: Set own game mode to Spectator Mode]
+>[2K[17:47:26] [Server thread/INFO]: Linphator issued server command: /gamemode creative
+>[2K[17:47:26] [Server thread/INFO]: [Linphator: Set own game mode to Creative Mode]
+>[2K[17:48:26] [Server thread/INFO]: Linphator issued server command: /gamemode spectator
+>[2K[17:48:26] [Server thread/INFO]: [Linphator: Set own game mode to Spectator Mode]
+>[2K[17:48:54] [Server thread/WARN]: Linphator moved too quickly! 4.787159389663898,10.793881147147557,-14.901237175823297
+>[2K[17:48:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11522ms or 230 ticks behind
+>[2K[17:50:40] [Server thread/INFO]: Linphator issued server command: /mvtp tdv_musik
+>[2K[17:50:44] [Server thread/INFO]: Linphator issued server command: /gamemode creative
+>[2K[17:50:44] [Server thread/INFO]: [Linphator: Set own game mode to Creative Mode]
+>[2K[17:50:58] [Server thread/INFO]: Linphator issued server command: /gamemode spectator
+>[2K[17:50:58] [Server thread/INFO]: [Linphator: Set own game mode to Spectator Mode]
+>[2K[17:52:03] [Server thread/INFO]: Linphator issued server command: /gamemode creative
+>[2K[17:52:03] [Server thread/INFO]: [Linphator: Set own game mode to Creative Mode]
+>[2K[17:53:03] [Server thread/INFO]: Linphator lost connection: Disconnected
+>[2K[17:53:04] [Server thread/INFO]: Linphator left the game
+>[2K[17:54:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7103ms or 142 ticks behind
+>[2K[17:54:38] [User Authenticator #2/INFO]: UUID of player Linphator is 8136c8af-7a61-409a-a844-6297a7933844
+>[2K[17:54:38] [Server thread/INFO]: Linphator[/90.146.208.144:61847] logged in with entity id 371 at ([tdv_musik]79.24153230883138, 14.125, -411.41594387626947)
+>[2K[17:59:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9818ms or 196 ticks behind
+>[2K[18:04:17] [Server thread/INFO]: Linphator lost connection: Disconnected
+>[2K[18:04:17] [Server thread/INFO]: Linphator left the game
+>[2K[18:19:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5313ms or 106 ticks behind
+>[2K[18:34:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6505ms or 130 ticks behind
+>[2K[18:39:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6932ms or 138 ticks behind
+>

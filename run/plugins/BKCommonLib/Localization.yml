@@ -1,0 +1,9 @@
+#> Below are the localization nodes set for plugin 'BKCommonLib'.
+#> For colors, use the & character followed up by 0 - F
+#> Need help with this file? Please visit:
+#> https://dev.bukkit.org/projects/bkcommonlib/pages/general/localization
+commands:
+  commondebug:
+    description: Developer
+    usage: /d  
+  usage: /debug [name] [value..
