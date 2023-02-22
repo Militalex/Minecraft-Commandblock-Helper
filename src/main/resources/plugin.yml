@@ -1,7 +1,11 @@
 name: CommandBlockHelper
 version: '${project.version}'
-main: com.github.militalex.commandblockhelper.CommandBlockHelper
+main: com.github.militalex.main.CommandBlockHelper
 api-version: 1.19
 authors: [ Militalex ]
 description: This plugin add lots of useful functionality to improve working with commandblocks.
 website: https://github.com/Militalex
+depend:
+  - ProtocolLib
+  - NBTAPI
+  - CommandAPI
