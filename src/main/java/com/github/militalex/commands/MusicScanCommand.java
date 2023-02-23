@@ -53,6 +53,11 @@ public class MusicScanCommand {
 	}
 
 	/**
+	 * Queue Holding information about which block should be processed n
+	 */
+	private static ArrayDeque<Object[]> queue;
+
+	/**
 	 * This method saves music build as redstone contraption to datapack.
 	 */
 	private static void scanMusic(@NotNull Player player, @NotNull Location startLoc, @NotNull String name){
@@ -146,7 +151,9 @@ public class MusicScanCommand {
 				"Your Datapack is " + ChatColor.YELLOW + name + " is now available.");
 	}
 
-	private static ArrayDeque<Object[]> queue;
+	/**
+	 * List of all minecraft sounds, to distinguish between sounds, which are added by Resource pack
+	 */
 	private static final List<String> SOUNDS = Arrays.stream(Sound.values())
 			.map(sound -> sound.getKey().toString()).toList();
 
