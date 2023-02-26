@@ -3,6 +3,7 @@ package com.github.militalex.util.datapack;
 
 import com.github.militalex.util.CommandExecutor;
 import com.github.militalex.util.FileUtil;
+import lombok.Getter;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -13,14 +14,14 @@ import java.nio.file.StandardOpenOption;
  * This class represents an abstract datapack with currently limited functions, because this Plugin currently need more.
  *
  * @author Militalex
- * @version 1.0
+ * @version 1.1
  */
 public class Datapack {
 
 	/**
 	 * Main directory of Datapack.
 	 */
-	private final Path path;
+	@Getter private final Path path;
 
 	/**
 	 * Name of Datapack, which have to be similar than Datapacks directory name.
@@ -40,7 +41,7 @@ public class Datapack {
 			Files.writeString(path.resolve("pack.mcmeta"), """
 				{
 				    "pack": {
-				        "description": "Data pack for resources provided by Bukkit plugins",
+				        "description": "Data pack with description.",
 				        "pack_format": 9
 				    }
 				}
@@ -48,7 +49,6 @@ public class Datapack {
 		} catch (IOException e) {
 			throw new IllegalArgumentException("Datapack creation of " + name + " failed!", e);
 		}
-
 	}
 
 	/**
@@ -61,13 +61,14 @@ public class Datapack {
 	}
 
 	/**
-	 * Creates a new mcfunction in Datapack with given {@code nameSpace} and {@code fname} containing given commands.
+	 * Creates a new mcfunction or modifies an existing one in Datapack with given {@code nameSpace} and {@code fname} containing given commands.
 	 * To use the function the server Datapacks should be reloaded.
 	 * @param fname Name of mcfunction.
 	 * @param nameSpace	Namespace of function (namespace:fname).
 	 * @param cmds Commands which should be added line by line into function. <i>(You can also include comments.)</i>
+	 * @return Returns path to created function.
 	 */
-	public void createFunction(String nameSpace, String fname, String... cmds){
+	public Path putCommandsIntoFunc(String nameSpace, String fname, String... cmds){
 		final Path funcPath = path.resolve("data").resolve(nameSpace).resolve("functions").resolve(fname + ".mcfunction");
 
 		if (!FileUtil.createIfNotExists(funcPath)) throw new IllegalArgumentException(funcPath + " cannot created!");
@@ -79,6 +80,7 @@ public class Datapack {
 				throw new IllegalArgumentException(cmd + " cannot written to file!", e);
 			}
 		}
+		return funcPath;
 	}
 
 	/**
